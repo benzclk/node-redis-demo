@@ -1,7 +1,6 @@
 import express from 'express';
 import cors from 'cors';
 import bodyParser from 'body-parser';
-import methodOverride from 'method-override';
 import morgan from 'morgan';
 import helmet from 'helmet';
 
@@ -31,7 +30,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Lets you use HTTP verbs such as PUT or DELETE
 // https://github.com/expressjs/method-override
-app.use(methodOverride());
+// app.use(methodOverride());
 
 // Mount public routes
 app.use('/public', express.static(`${__dirname}/public`));
