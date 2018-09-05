@@ -3,7 +3,7 @@ First, ensure you have node and mongo installed on your system.
 
 ```sh
 # clone it
-git clone git@github.com:kylealwyn/node-rest-api-boilerplate.git
+git clone git@github.com:benzclk/spring-redis-demo.git
 cd node-rest-api-boilerplate
 
 # Make it your own
